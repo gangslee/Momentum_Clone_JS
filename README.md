@@ -1,7 +1,7 @@
 # Momentum_Clone_JS
 Momentum_Clone_JS using HTML, CSS, JS
 
-Setting username, todo list, location, time in browser
+- Setting username, todo list, location, time in browser
 
 
 ## API
