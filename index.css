@@ -3,13 +3,25 @@ body{
     color: #ffffff;
 }
 
+h1{
+    font-size: 60px;
+    margin: 5% 0% 5% 0%;
+    text-align: center;
+}
+
 .form,
 .grettings{
     display: none;
+    padding-left: 50%;
+
 }
 
 .showing{
     display: block;
+    font-size: 40px;
+    text-align: center;
+    margin: 5%;
+    font-weight: bold;
 }
 
 @keyframes fadeIn{
@@ -29,4 +41,43 @@ body{
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+}
+
+.main-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:350px;
+    height:100px;
+    margin:-150px 0 0 -200px;
+}
+
+input{
+    width: 70%;
+    margin-left: 10%;
+    height: 10px;
+    padding: 5%;
+    font-size: 20px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: #ffffff 1px solid;
+}
+
+li{
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+li button{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.js-weather{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
